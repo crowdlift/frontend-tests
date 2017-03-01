@@ -4,6 +4,12 @@
   "description": "Frontend Kit tests.",
   "private": true,
   "main": "./index.js",
+  "bin": {
+    "karma": "./node_modules/.bin/karma",
+    "mocha": "./node_modules/.bin/mocha",
+    "nightwatch": "./node_modules/.bin/nightwatch",
+    "test_e2e_local": "./bin/test_e2e_local.sh"
+  },
   "repository": "crowdlift/frontend-tests",
   "homepage": "https://github.com/crowdlift/frontend-tests",
   "scripts": {
