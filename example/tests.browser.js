@@ -1,7 +1,7 @@
 // Example:
 // Load this file in karma.
 
-// const browser = require('frontend-tests').browser;
+// const browser = require('frontendkit-tests').browser;
 const browser = require('../index').browser;
 
 browser.setup();

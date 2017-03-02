@@ -10,8 +10,8 @@
     "nightwatch": "./node_modules/.bin/nightwatch",
     "test_e2e_local": "./bin/test_e2e_local.sh"
   },
-  "repository": "crowdlift/frontend-tests",
-  "homepage": "https://github.com/crowdlift/frontend-tests",
+  "repository": "crowdlift/frontendkit-tests",
+  "homepage": "https://github.com/crowdlift/frontendkit-tests",
   "scripts": {
     "build": "babel lib --out-dir dist/lib",
     "clean": "rimraf dist",
@@ -29,7 +29,7 @@
     "chai-as-promised": "^6.0.0",
     "eslint-plugin-chai-expect": "^1.1.1",
     "expect": "^1.20.2",
-    "frontend-kit": "github:crowdlift/frontend-kit#v0.1.3",
+    "frontendkit": "github:crowdlift/frontendkit#latest",
     "karma": "^1.5.0",
     "karma-browserstack-launcher": "^1.2.0",
     "karma-chrome-launcher": "^2.0.0",

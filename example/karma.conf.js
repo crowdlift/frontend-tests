@@ -1,6 +1,6 @@
 // Use these in an actual project:
-// const karmaConfig = require('frontend-tests').karmaConfig;
-// const webpackConfig = require('frontend-tests').webpackConfig;
+// const karmaConfig = require('frontendkit-tests').karmaConfig;
+// const webpackConfig = require('frontendkit-tests').webpackConfig;
 // const projectName = require('./package').name;
 
 const karmaConfig = require('../index').karmaConfig;

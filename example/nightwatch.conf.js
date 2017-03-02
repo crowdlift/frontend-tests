@@ -1,5 +1,5 @@
 // Use these in an actual project:
-// const karmaConfig = require('frontend-tests').karmaConfig;
+// const karmaConfig = require('frontendkit-tests').karmaConfig;
 
 const nightwatchConfig = require('../index').nightwatchConfig;
 
