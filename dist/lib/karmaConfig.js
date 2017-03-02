@@ -84,7 +84,7 @@ var getConfig = function getConfig(config, karmaConfig) {
     frameworks: ['mocha'],
     reporters: ['mocha', 'coverage'],
 
-    files: ['node_modules/babel-polyfill/dist/polyfill.js', config.entry],
+    files: config.files,
 
     preprocessors: {
       '*.js': ['webpack', 'sourcemap']
