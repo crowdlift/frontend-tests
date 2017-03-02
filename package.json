@@ -1,6 +1,6 @@
 {
   "name": "frontendkit-tests",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "FrontendKit test harness.",
   "private": true,
   "main": "./index.js",
