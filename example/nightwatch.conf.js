@@ -1,6 +1,5 @@
 // Use these in an actual project:
-// const karmaConfig = require('frontendkit-tests').karmaConfig;
-
+// const nightwatchConfig = require('frontendkit-tests').nightwatchConfig;
 const nightwatchConfig = require('../index').nightwatchConfig;
 
 module.exports = nightwatchConfig({
