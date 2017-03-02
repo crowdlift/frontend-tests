@@ -1,8 +1,10 @@
 // Example:
 // Load this file in karma.
 
-// const browser = require('frontendkit-tests').browser;
-const browser = require('../index').browser;
+// NOTE: Requiring frontend-tests directly results in webpack compile errors.
+//       As a workaround, just require browser directly from dist/lib.
+// const browser = require('frontendkit-tests/dist/lib/browser');
+const browser = require('../lib/browser');
 
 browser.setup();
 
