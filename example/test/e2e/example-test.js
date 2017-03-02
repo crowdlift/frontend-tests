@@ -10,7 +10,7 @@ module.exports = {
 
     browser.expect.element('body').to.be.present.before(200);
     browser.expect.element('title').to.be.present;
-    browser.expect.element('body').text.to.contain('Google');
+    browser.expect.element('body').text.to.contain('Gmail');
 
     browser.end();
   },

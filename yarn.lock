@@ -2747,9 +2747,9 @@ from@~0:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/from/-/from-0.1.3.tgz#ef63ac2062ac32acf7862e0d40b44b896f22f3bc"
 
-"frontend-kit@github:crowdlift/frontend-kit":
-  version "0.1.2"
-  resolved "https://codeload.github.com/crowdlift/frontend-kit/tar.gz/401051f8fea8a77ab04b479c4558d6cbb69dad4b"
+"frontend-kit@github:crowdlift/frontend-kit#v0.1.3":
+  version "0.1.3"
+  resolved "https://codeload.github.com/crowdlift/frontend-kit/tar.gz/34fdf013913dcdaeca85de6a00119041a2cc7dc2"
   dependencies:
     babel-cli "^6.23.0"
     babel-core "^6.23.1"
